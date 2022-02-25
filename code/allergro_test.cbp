@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="allergro_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/allergro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/allegro-x86_64-w64-mingw32-gcc-7.2.0-posix-seh-static-5.2.4.1/allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/allergro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/allegro-x86_64-w64-mingw32-gcc-7.2.0-posix-seh-static-5.2.4.1/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/allegro-x86_64-w64-mingw32-gcc-7.2.0-posix-seh-static-5.2.4.1/allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/allegro-x86_64-w64-mingw32-gcc-7.2.0-posix-seh-static-5.2.4.1/allegro/lib" />
+		</Linker>
+		<Unit filename="Allegro5Exception.cpp" />
+		<Unit filename="Allegro5Exception.hpp" />
+		<Unit filename="AudioHelper.cpp" />
+		<Unit filename="AudioHelper.hpp" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.hpp" />
+		<Unit filename="Collider.cpp" />
+		<Unit filename="Collider.hpp" />
+		<Unit filename="DirtyEffect.cpp" />
+		<Unit filename="DirtyEffect.hpp" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.hpp" />
+		<Unit filename="ExplodeTurret.cpp" />
+		<Unit filename="ExplodeTurret.hpp" />
+		<Unit filename="ExplosionEffect.cpp" />
+		<Unit filename="ExplosionEffect.hpp" />
+		<Unit filename="FireBullet.cpp" />
+		<Unit filename="FireBullet.hpp" />
+		<Unit filename="FreezeTurret.cpp" />
+		<Unit filename="FreezeTurret.hpp" />
+		<Unit filename="GameEngine.cpp" />
+		<Unit filename="GameEngine.hpp" />
+		<Unit filename="Group.cpp" />
+		<Unit filename="Group.hpp" />
+		<Unit filename="IControl.cpp" />
+		<Unit filename="IControl.hpp" />
+		<Unit filename="IObject.cpp" />
+		<Unit filename="IObject.hpp" />
+		<Unit filename="IScene.cpp" />
+		<Unit filename="IScene.hpp" />
+		<Unit filename="IceCreamBullet.cpp" />
+		<Unit filename="IceCreamBullet.hpp" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.hpp" />
+		<Unit filename="ImageButton.cpp" />
+		<Unit filename="ImageButton.hpp" />
+		<Unit filename="Killer.cpp" />
+		<Unit filename="Killer.hpp" />
+		<Unit filename="LOG.cpp" />
+		<Unit filename="LOG.hpp" />
+		<Unit filename="Label.cpp" />
+		<Unit filename="Label.hpp" />
+		<Unit filename="LoseScene.cpp" />
+		<Unit filename="LoseScene.hpp" />
+		<Unit filename="Makefile" />
+		<Unit filename="NormalEnemy.cpp" />
+		<Unit filename="NormalEnemy.hpp" />
+		<Unit filename="Plane.cpp" />
+		<Unit filename="Plane.hpp" />
+		<Unit filename="PlateletTurret.cpp" />
+		<Unit filename="PlateletTurret.hpp" />
+		<Unit filename="PlayScene.cpp" />
+		<Unit filename="PlayScene.hpp" />
+		<Unit filename="PockyBullet.cpp" />
+		<Unit filename="PockyBullet.hpp" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.hpp" />
+		<Unit filename="RedCross.cpp" />
+		<Unit filename="RedCross.hpp" />
+		<Unit filename="Resources.cpp" />
+		<Unit filename="Resources.hpp" />
+		<Unit filename="Slider.cpp" />
+		<Unit filename="Slider.hpp" />
+		<Unit filename="SofaEnemy.cpp" />
+		<Unit filename="SofaEnemy.hpp" />
+		<Unit filename="SpeedEnemy.cpp" />
+		<Unit filename="SpeedEnemy.hpp" />
+		<Unit filename="Sprite.cpp" />
+		<Unit filename="Sprite.hpp" />
+		<Unit filename="StageSelectScene.cpp" />
+		<Unit filename="StageSelectScene.hpp" />
+		<Unit filename="Start_Scene.cpp" />
+		<Unit filename="Start_Scene.hpp" />
+		<Unit filename="StopTurret.cpp" />
+		<Unit filename="StopTurret.hpp" />
+		<Unit filename="StrongEnemy.cpp" />
+		<Unit filename="StrongEnemy.hpp" />
+		<Unit filename="Turret.cpp" />
+		<Unit filename="Turret.hpp" />
+		<Unit filename="TurretButton.cpp" />
+		<Unit filename="TurretButton.hpp" />
+		<Unit filename="WBCellTurret.cpp" />
+		<Unit filename="WBCellTurret.hpp" />
+		<Unit filename="WinScene.cpp" />
+		<Unit filename="WinScene.hpp" />
+		<Unit filename="allegro.log" />
+		<Unit filename="allergro_test.cbp" />
+		<Unit filename="bomb.cpp" />
+		<Unit filename="bomb.hpp" />
+		<Unit filename="enemybullet.cpp" />
+		<Unit filename="enemybullet.hpp" />
+		<Unit filename="healeffect.cpp" />
+		<Unit filename="healeffect.hpp" />
+		<Unit filename="log.txt" />
+		<Unit filename="main.cpp" />
+		<Unit filename="setting.cpp" />
+		<Unit filename="setting.hpp" />
+		<Unit filename="shooteffect.cpp" />
+		<Unit filename="shooteffect.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
